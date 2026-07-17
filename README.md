@@ -9,10 +9,14 @@ not a third party's summary you have to take on faith.
 > almost nobody." — the fix isn't zero trust, it's **checkable** trust: every answer comes back
 > with its receipt attached.
 
-## ▶ 90-second demo
-<!-- Paste the unlisted YouTube (or Loom) link here once recorded, e.g.: -->
-<!-- [Watch the demo](https://youtu.be/XXXXXXXX) -->
-*(demo clip link coming here)*
+## ▶ Demo
+
+![DGG-RAG demo — build the index, then queries that return passages with their citations](demo/destiny-demo.gif)
+
+A 20-second terminal walk-through: index a vault, then ask two questions — each answer comes back
+with its **sources attached**. Replay the raw recording with
+`asciinema play demo/destiny-demo.cast` (regenerate the GIF with
+`agg demo/destiny-demo.cast demo/destiny-demo.gif`).
 
 ## What it does
 - Ingests an **Obsidian markdown vault** exactly as it sits on disk (frontmatter, `[[wikilinks]]`,
