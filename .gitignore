@@ -1,0 +1,7 @@
+# retrieval index build artifact
+.dgg_index.json
+**/.dgg_index.json
+# python
+__pycache__/
+*.pyc
+.venv/
